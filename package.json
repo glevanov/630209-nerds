@@ -1,0 +1,27 @@
+{
+  "name": "630209-nerds",
+  "version": "1.0.0",
+  "description": "Макет \"Нёрдс\" от HTML Academy",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glevanov/630209-nerds.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glevanov/630209-nerds/issues"
+  },
+  "homepage": "https://github.com/glevanov/630209-nerds#readme",
+  "devDependencies": {
+    "browser-sync": "2.24.6",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "5.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-cssnano": "2.1.3",
+    "gulp-imagemin": "4.1.0"
+  }
+}
