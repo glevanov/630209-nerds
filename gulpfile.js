@@ -31,5 +31,6 @@ gulp.task('browserSync', function() {
 })
 
 gulp.task('watch', ['browserSync'], function() {
-  gulp.watch('app/blocks/**/*.+(css)', ['styles'])
+  gulp.watch('app/blocks/**/*.+(css)', ['styles']);
+  gulp.watch('*.html', browserSync.reload);
 });
