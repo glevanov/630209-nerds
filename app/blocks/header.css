@@ -1,3 +1,7 @@
 .header {
     background-color: #eeeeee;
 }
+
+.header .wrap {
+    display: flex;
+}
