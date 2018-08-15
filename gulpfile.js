@@ -8,7 +8,7 @@ const browserSync = require('browser-sync').create();
 gulp.task('images', function(){
   return gulp.src(['app/**/*.+(png|jpg|gif|svg)', '!app/guide/preview/*'])
     .pipe(imagemin())
-    .pipe(gulp.dest('img'))
+    .pipe(gulp.dest('./'))
 });
 
 gulp.task('styles', function() {
